@@ -59,7 +59,7 @@ def main():
     print("=" * 20)
 
     execute("{0}/bin/python3 -V".format(INSTALL_PATH))
-    execute("{0}/bin/python3/bin/pip3 -V".format(INSTALL_PATH))
+    execute("{0}/bin/pip3 -V".format(INSTALL_PATH))
 
     print("手动将/usr/local/python3/bin加入PATH")
     print("编辑")
